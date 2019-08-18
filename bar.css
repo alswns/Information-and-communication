@@ -1,0 +1,34 @@
+body{
+    background-color: #F5ECCE;
+    
+    
+}
+.bar {
+            
+            margin: 0px;
+            padding: 0px;
+            position: fixed;
+            width: 100%;
+            top: 0px;
+            left:0px;
+        }
+
+        .bar li {
+            display: inline-block;
+        }
+
+        .bar li a {
+            text-shadow: 3px 3px 10px gray;
+            display: block;
+            text-decoration: none;
+            padding: 10px 20px;
+            color: black;
+        }
+
+        .bar li a:hover {
+            font-size: 20px;
+            text-shadow: 3px 3px 8px black;
+            box-sizing: border-box;
+
+            
+        }
